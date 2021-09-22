@@ -2,7 +2,7 @@
   "name": "zcl-mobile-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/zcl-mobile-ui.js",
+  "main": "lib/index.js",
   "style": "lib/index.css",
   "files": [
     "lib",
