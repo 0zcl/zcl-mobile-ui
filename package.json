@@ -1,6 +1,6 @@
 {
   "name": "zcl-mobile-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -28,7 +28,8 @@
     "*.{vue,css,less,scss}": "stylelint --fix"
   },
   "peerDependencies": {
-    "vue": "^3.0.0"
+    "vant": "^3.2.3",
+    "vue": "^3.2.20"
   },
   "devDependencies": {
     "@vant/cli": "^3.9.0",
@@ -37,7 +38,8 @@
     "postcss": "^8.3.6",
     "postcss-pxtorem": "^6.0.0",
     "url-loader": "^4.1.1",
-    "vue": "^3.0.0"
+    "vant": "^3.2.3",
+    "vue": "^3.2.20"
   },
   "eslintConfig": {
     "root": true,
@@ -56,8 +58,5 @@
   "browserslist": [
     "Chrome >= 51",
     "iOS >= 10"
-  ],
-  "dependencies": {
-    "vant": "^3.2.3"
-  }
+  ]
 }

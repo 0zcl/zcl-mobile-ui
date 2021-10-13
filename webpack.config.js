@@ -3,14 +3,14 @@ const path = require('path');
 module.exports = {
   devServer: {
     port: 9999,
-    hot: true
+    // hot: true
   },
   resolve: {
     alias: {
       '@': path.resolve(__dirname),
-      'src': path.resolve(__dirname, 'src'),
-      'utils': path.resolve(__dirname, 'utils'),
-      'assets': path.resolve(__dirname, 'assets')
+      src: path.resolve(__dirname, 'src'),
+      utils: path.resolve(__dirname, 'utils'),
+      assets: path.resolve(__dirname, 'assets'),
     },
   },
   module: {
@@ -24,8 +24,8 @@ module.exports = {
               esModule: false,
             },
           },
-        ]
-      }
-    ]
-  }
+        ],
+      },
+    ],
+  },
 };
