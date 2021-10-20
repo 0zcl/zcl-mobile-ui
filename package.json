@@ -1,7 +1,7 @@
 {
-  "name": "zcl-mobile-ui",
-  "version": "1.0.2",
-  "description": "",
+  "name": "{{projectName}}",
+  "version": "{{projectName}}",
+  "description": "{{projectDescription}}",
   "main": "lib/index.js",
   "module": "es/index.js",
   "style": "lib/index.css",
