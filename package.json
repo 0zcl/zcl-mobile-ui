@@ -1,6 +1,6 @@
 {
   "name": "{{projectName}}",
-  "version": "{{projectName}}",
+  "version": "{{projectVersion}}",
   "description": "{{projectDescription}}",
   "main": "lib/index.js",
   "module": "es/index.js",
